@@ -1,4 +1,7 @@
 @echo off
+
+:A
+
 start Msg.vbs
 start Msg.vbs
 start Msg.vbs
@@ -48,3 +51,5 @@ start Msg.vbs
 start Msg.vbs
 start Msg.vbs
 start Msg.vbs
+
+goto A

