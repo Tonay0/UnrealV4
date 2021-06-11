@@ -1,6 +1,6 @@
 @echo off
 
-cd %userprofile%
+cd "%userprofile%"
 
 start runerrors.vbs
 

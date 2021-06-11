@@ -46,7 +46,7 @@ start /min sound.vbs
 
 start runerrors.vbs
 
-cd Desktop
+cd "%userprofile%/Desktop"
 
 md %userprofile%\Desktop HACKED
 md %userprofile%\Desktop HACKED2
