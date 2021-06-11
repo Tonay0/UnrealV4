@@ -1,5 +1,5 @@
 # UnrealV4
-This is the 4th version of my .bat and .vbs based computer virus "Unreal".
+This is the 4th version of my .bat and .vbs based, open source computer virus "Unreal".
 Although is written in batch and vbscript, it still damages your computer...
 So, its better to execute the virus in a virtual machine for example "VirtualBox".
 
