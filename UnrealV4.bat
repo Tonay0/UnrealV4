@@ -34,7 +34,7 @@ ping localhost -n 6 >NUL
 Rundll32 user32, SwapMouseButton
 
 start type.bat
-ping localhost -n 30 >NUL
+ping localhost -n 35 >NUL
 
 
 set "file=jebaited.mp3"

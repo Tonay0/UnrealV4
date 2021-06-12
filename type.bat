@@ -6,7 +6,7 @@ set lines=6
 
 set "line1=Thank you for downloading UnrealV4"
 set "line2=We are trying our best that you get the worst expierience :D"
-set "line3=Thats why I enabled LIGHT MODE for you..."
+set "line3=Thats why I enabled LIGHT MODE for you... also I swapped your Mouse Buttons xD"
 set "line4=I hope you like it... Wait... you,.. you... don't like it? YOU KNOW WHAT? FUCK YOU"
 set "line5=so,... LET'S BEGIN THE SHOW"
 set "line6=ARE YOU READY?... YES U ARE"
