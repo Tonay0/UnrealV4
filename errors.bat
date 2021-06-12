@@ -2,17 +2,15 @@
 
 
 start Msg.vbs
-ping localhost -n 15 >NUL
+ping localhost -n 3 >NUL
 start Msg.vbs
-ping localhost -n 15 >NUL
-start Msg.vbs
-ping localhost -n 10 >NUL
-start Msg.vbs
-ping localhost -n 5 >NUL
+ping localhost -n 3 >NUL
 start Msg.vbs
 ping localhost -n 2 >NUL
 start Msg.vbs
-ping localhost -n 1 >NUL
+ping localhost -n 2 >NUL
+start Msg.vbs
+ping localhost -n 2 >NUL
 start Msg.vbs
 ping localhost -n 1 >NUL
 start Msg.vbs

